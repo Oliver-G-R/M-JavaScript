@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        
+        <form>
+            <p>
+                <label for="nombre">Nombre</label> <!--Indica un nombre del campo, for indica a que campo corresponde este label-->
+                <input type="text" name="nombre" placeholder="Introduce texto"><!--Entrada de texto del usuario
+                 Type -> Indica de que tipo de dato va introducir el usuario 
+                 name -> sirve como registro de este input
+                placeholder -> indica un texto del input dentro de el mismo-->
+            </p>
+
+            <p>
+                <label for="descripcion"> Descripción </label>
+                <textarea name="descripcion"></textarea> <!--Para añadir una descripción-->
+            </p>
+
+            <input type="radio" name="genero" value="Hombre"> Hombre <br>
+             <!--type="radio" -> crea una selección de tipo radio button
+                 value -> es un valor por defecto o el que se le asigne -->
+            <input type="radio" name="genero" value="Mujer"> Mujer <br>
+
+            <br><!--Da un salto de línea-->
+
+            <select name="" >
+                <option value="Hombre" >Hombre</option><!--Para meter las diferentes opciones-->
+                <option value="Mujer" >Mujer</option> 
+            </select> <!--Campo de selección-->
+            
+            <input type="submit" value="Enviar formulario"> <!--type="submit hace un boton para enviar el formulario"-->
+
+        </form><!--Etiqueta de formulario-->
+    </body>
+</html> 
