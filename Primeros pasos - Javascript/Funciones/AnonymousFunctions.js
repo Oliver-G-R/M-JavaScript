@@ -13,16 +13,15 @@ function sumame(n1,n2, sumaYMuestra, sumaPorDos){
     return sumar;
 }
 
-
-
-
 sumame(5,7, function(dato){ /*al llamar una funcion anonima detro de la misma funcion 
-                              donde se esta llamando se le llama call back*/
-    console.log('La suma es: ' + dato);
-},
-function(dato){
-    console.log('La suma por dos es: ' + (dato * 2));
+    donde se esta llamando se le llama call back*/
+console.log('La suma es: ' + dato);
+},function(dato){
+console.log('La suma por dos es: ' + (dato * 2));
 });
+
+
+
 
 
 

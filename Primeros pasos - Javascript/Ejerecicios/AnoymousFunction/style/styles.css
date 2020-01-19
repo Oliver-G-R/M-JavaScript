@@ -1,0 +1,32 @@
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.calcNumbers{
+    display: flex;
+    align-items: center;
+}
+.calcNumbers p{
+    margin-left: 20px;
+    color: brown;
+    font-size: 30px;
+}
+
+.operations p{
+    font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.position{
+    max-width: 500px;
+    margin: auto;   
+     
+}
