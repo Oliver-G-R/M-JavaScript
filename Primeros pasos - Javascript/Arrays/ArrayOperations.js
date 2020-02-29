@@ -7,6 +7,7 @@ var element;
 do{
     element = prompt('Introduce tú película: ');
     movies.push(element); //Forma de mandar mas elementos al array
+
 }while(element != 'ACABAR');
 
 movies.pop(); //Eliminando el último elemento agregado
