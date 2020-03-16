@@ -2,7 +2,7 @@
 
 var caja = document.querySelector('#mi-caja')
 
-//Conseguir elemntos por etiquetas
+//Conseguir elementos por etiquetas
 var allDivs = document.getElementsByTagName('div');
 
 /*var contentText = allDivs[2]; //Accediendo al contenido del elemento 3
@@ -40,3 +40,4 @@ for (var divs in divsRed) {
         divsRed[divs].style.background = 'red';
     }
 }
+

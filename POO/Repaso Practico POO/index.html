@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>
+        Guarda tu pelicula o serie favorita
+    </h1>
+
+    <form id="form-content">
+        <p>
+            Selecciona el tipo
+        </p>
+
+        <label for="serie">Serie</label>
+        <input type="radio" name="category" value="serie" id="serie" checked>
+
+        <label for="pelicula">Película</label>
+        <input type="radio" name="category" value="película" id="pelicula">
+
+        <hr>
+        <label for="nameMovie">Nombre</label>
+        <input  type="text" id="name">
+
+        <br>
+        <br>
+
+        <label for="gender">Genero</label>
+        <input type="text" id="gender">
+
+        <br>
+        <br>
+
+        <label for="year">Año</label>
+        <input type="text"  id="year">
+
+        <p>
+            Si este contenido es uno de tus favoritos, selecciona alguna de las casillas siguientes
+        </p>
+
+        
+        <label for="si">Si es mi favorita</label>
+        <input type="radio" name="fav" value="si" id="yes" checked>
+
+        <label for="no">No es mi favorita</label>
+        <input type="radio" name="fav" value="no" id="no">
+
+        <input type="submit" value="Enviar" id="send">
+    </form>
+
+
+    <h2>
+        Contenido Guardado
+    </h2>
+
+    <ul id="list_content">
+
+    </ul>
+
+    <h2>
+        Contenido Favorito
+    </h2>
+
+    <ul id="list_content_fav">
+
+    </ul>
+
+
+    <script src="index.js"></script>
+  
+</body>
+
+</html>
